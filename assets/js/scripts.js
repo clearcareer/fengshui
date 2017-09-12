@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
         Countdown initializer
     */
     var now = new Date();
-    var countTo = "2017/06/23 15:00";    
+    var countTo = "2017/09/12 17:30";    
     $('.timer').countdown(countTo, function(event) {
     	$(this).find('.days').text(event.offset.totalDays);
     	$(this).find('.hours').text(event.offset.hours);
